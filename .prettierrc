@@ -1,4 +1,14 @@
 {
   "singleQuote": true,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "tabWidth": 4,
+  "semi": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "printWidth": 100,
+  "bracketSameLine": false,
+  "singleAttributePerLine": false,
+  "endOfLine": "lf",
+  "removeUnusedImports": true,
+  "plugins": ["prettier-plugin-organize-imports"]
 }
