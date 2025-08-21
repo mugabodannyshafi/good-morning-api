@@ -1,13 +1,26 @@
 # Good Morning API
 
 ## Description
+The **AI Email Generation API** is a backend service built with NestJS and OpenAI that allows users to generate professional, personalized, and context-aware emails.  
+This project is containerized with Docker for easy setup and development, and includes ready-to-use scripts for testing and database migrations.
 
-The Good Morning API is a simple NestJS service that receives user submissions (name, phone, email) and stores them in a PostgreSQL database. It is containerized with Docker for easy deployment.
+---
+
+## Tech Stack
+- **[NestJS](https://nestjs.com/)** – Backend framework
+- **[OpenAI API](https://platform.openai.com/)** – AI-powered email generation
+- **[TypeORM](https://typeorm.io/)** – Database ORM (if using persistence)
+- **Docker & Docker Compose** – Containerized development
+- **Jest** – Testing framework
+
+---
 
 ## Prerequisites
 
 - Docker
 - Docker Compose
+
+---
 
 ## Installation and Setup
 
